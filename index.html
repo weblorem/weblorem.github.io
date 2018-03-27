@@ -7,8 +7,9 @@
   ga('create', 'UA-52553389-2', 'auto');
   ga('send', 'pageview');
 var gonawaz = "Go Nawaz Go"
-for (var i=0; i<100000; i++) {
-ga('send', 'event', gonawaz, gonawaz, gonawaz + ' Campaign');
-console.log(i + ' ' + gonawaz);
+for (var i=0; i<10000; i++) {
+  ga('send', 'pageview');
+  ga('send', 'event', gonawaz, gonawaz, gonawaz + ' Campaign');
+  console.log(i + ' ' + gonawaz);
 };
 </script>
